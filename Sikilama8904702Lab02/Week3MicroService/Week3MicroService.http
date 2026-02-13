@@ -1,0 +1,6 @@
+@Week3MicroService_HostAddress = http://localhost:5125
+
+GET {{Week3MicroService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
