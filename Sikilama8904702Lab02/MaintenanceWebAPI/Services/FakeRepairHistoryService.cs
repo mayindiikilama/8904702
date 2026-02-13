@@ -2,7 +2,7 @@
 
 namespace MaintenanceWebAPI.Services
 {
-    public class FakeRepairHistoryService
+    public class FakeRepairHistoryService : IRepairHistoryService
     {
         public List<RepairHistoryDto> GetByVehicleId(int vehicleId)
         {
