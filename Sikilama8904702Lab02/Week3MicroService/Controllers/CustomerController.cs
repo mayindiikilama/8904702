@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Week3MicroService.Data;
 using Week3MicroService.Models;
 
 namespace Week3MicroService.Controllers

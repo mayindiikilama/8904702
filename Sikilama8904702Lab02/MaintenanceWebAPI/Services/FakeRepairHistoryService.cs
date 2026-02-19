@@ -1,4 +1,4 @@
-﻿using MaintenanceWebAPI.DTO;
+﻿using MaintenanceWebAPI.Models;
 
 namespace MaintenanceWebAPI.Services
 {

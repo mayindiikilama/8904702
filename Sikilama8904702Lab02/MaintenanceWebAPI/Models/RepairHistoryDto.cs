@@ -1,4 +1,4 @@
-﻿namespace MaintenanceWebAPI.DTO
+﻿namespace MaintenanceWebAPI.Models
 {
     public class RepairHistoryDto
     {

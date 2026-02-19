@@ -1,12 +1,15 @@
 //using Week3MicroService.Data;
 //using .Data;
 
+using Microsoft.EntityFrameworkCore;
+using Week3MicroService.Data;
+
 var builder = WebApplication.CreateBuilder(args);
 
-//builder.Services.AddDbContext<>(options =>
-//    options.UseSqlServer(
-//      builder.Configuration.GetConnectionString("DefaultConnection")
-//    ));
+builder.Services.AddDbContext<CustomerProfileContext>(options =>
+    options.UseSqlServer(
+      builder.Configuration.GetConnectionString("DefaultConnection")
+    ));
 
 
 
